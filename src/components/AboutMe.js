@@ -12,10 +12,10 @@ const AboutMe = () => {
             <div className="container section ">
 
                 <div className="columns">
-                    
+
                             <div className="column">
 
-                                <span className=" is-size-3">About-Us <hr/></span>
+                                <span className=" is-size-3">About-Me <hr/></span>
                                 
                             </div>
                     </div>
@@ -24,7 +24,7 @@ const AboutMe = () => {
 
                     <div className="is-half columns columns is-centered">
 
-                        <div className="box is-fluid p-6 has-background-danger-dark column">
+                        <div className="box is-fluid p-6 box-color column">
 
                             <div className="p-6">
 

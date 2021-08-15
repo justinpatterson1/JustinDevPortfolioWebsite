@@ -17,7 +17,7 @@ const Hero = () => {
             <div  className="columns is-vcentered is-centered">
                 <div id="hero-greeting" className=" p-6 is-half  column has-background-black-light has-text-centered">
                         <p className="title has-text-centered has-text-primary-light p-2">Hello,My Name Is <span>Justin Patterson</span></p>
-                        <p className="subtitle has-text-centered has-text-danger"> Web-Developer/Information Systems Support Analyst.</p>
+                        <p className="subtitle has-text-centered"> Web-Developer/Information Systems Support Analyst.</p>
                  </div>
             </div>
         </div>

@@ -4,7 +4,7 @@ import JustinDevLogo from "../assets/Images/mylogo.png"
 const Navbar = () => {
     return (
 
-        <nav className="navbar has-background-grey-dark">
+        <nav id="nav-bar" className="navbar">
            <div className="container">
             <div  className="navbar-menu">
                 <div className="navbar-brand">
