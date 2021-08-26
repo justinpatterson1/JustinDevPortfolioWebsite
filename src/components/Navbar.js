@@ -12,7 +12,7 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end">
                     <a className="p-3 m-4  is-centered has-text-danger-light" href="">About Me</a>
-                    <a className="p-3 m-4  is-centered has-text-danger-light" href="">Skills</a>
+                    <a className="p-3 m-4  is-centered has-text-danger-light" href="">Toolkit</a>
                     <a className="p-3 m-4  is-centered has-text-danger-light" href="">Services</a>
                     <a className="p-3 m-4  is-centered has-text-danger-light" href="">Projects</a>
                     <a className="p-3 m-4  is-centered has-text-danger-light" href="">Contact Me</a>
