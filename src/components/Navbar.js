@@ -1,26 +1,29 @@
 import React from 'react'
-import JustinDevLogo from "../assets/Images/mylogo.png"
+import '../assets/css/App.css';
 
-const Navbar = () => {
+const NavBar = () => {
     return (
-
-        <nav id="nav-bar" className="navbar">
-           <div className="container">
-            <div  className="navbar-menu">
-                <div className="navbar-brand">
-                    <h1 className="has-text-white navbar-item is-size-2">JustinDev</h1>
+        <div className='pt-2'>
+            <nav className=''>
+               <div className='grid col-3'>
+                    <div className='mt-4 pl-5 m-2'>
+                        <a className='has-text-white'>
+                            JustinDEV
+                        </a>
+                    </div>
+                    <div className='text-align-center '>
+                        <li className='nav-links mt-4 mx-5'><a  className='has-text-white' href="">About</a></li>
+                        <li className='nav-links mx-5'><a  className='has-text-white' href="">Services</a></li>
+                        <li className='nav-links mx-5'><a  className='has-text-white' href="">Tools</a></li>
+                        <li className='nav-links mx-5'><a  className='has-text-white' href="">Projects</a></li>
+                    </div>
+                    <div className='m-2 text-align-right pr-5'>
+                        <a id='contact-btn' className='button are-medium is-normal is-outlined has-text-white '>Contact</a>
+                    </div>
                 </div>
-                <div className="navbar-end">
-                    <a className="p-3 m-4  is-centered has-text-danger-light" href="">About Me</a>
-                    <a className="p-3 m-4  is-centered has-text-danger-light" href="">Toolkit</a>
-                    <a className="p-3 m-4  is-centered has-text-danger-light" href="">Services</a>
-                    <a className="p-3 m-4  is-centered has-text-danger-light" href="">Projects</a>
-                    <a className="p-3 m-4  is-centered has-text-danger-light" href="">Contact Me</a>
-                </div>
-            </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     )
 }
 
-export default Navbar
+export default NavBar
