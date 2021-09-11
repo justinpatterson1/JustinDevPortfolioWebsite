@@ -67,6 +67,10 @@ hr
       text-align: right;
     }
 
+    .align-items-center
+    {
+      align-items: center;
+    }
     .nav-links{
       display: inline-block;
       
@@ -75,6 +79,13 @@ hr
     {
       
     }
+   
+   /* #aboutMe-pic
+    {
+      width: 2400px;
+      height: 900px;
+    }
+    */
 
     #hero
     {
@@ -83,5 +94,12 @@ hr
       font-family: Roboto;
       font-style: regular;
       font-size: 16px
+    }
+
+    .expectationPic
+    {
+      width: 200px;
+      height: 200px;
+      
     }
 
