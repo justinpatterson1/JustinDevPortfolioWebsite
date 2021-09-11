@@ -20,11 +20,11 @@ const Tools = () => {
                                         Front-End
                                     </p>
                                     <div className='has-text-white'>
-                                        <p className="is-7 p-2">HTML</p>
-                                        <p className="is-7 p-2">CSS</p>
-                                        <p className="is-7 p-2">Js</p>
-                                        <p className="is-7 p-2">Bulma</p>
-                                        <p className="is-7 p-2">React</p>
+                                        <p className="is-7 pb-2">HTML</p>
+                                        <p className="is-7 pb-2">CSS</p>
+                                        <p className="is-7 pb-2">Js</p>
+                                        <p className="is-7 pb-2">Bulma</p>
+                                        <p className="is-7 pb-2">React</p>
                                     </div>
                                 </div>
                                 <div className='column has-text-white is-centered'>
@@ -32,18 +32,19 @@ const Tools = () => {
                                         Back-End
                                     </p>
                                     <div>
-                                        <p className="is-7 p-2">Express.js</p>
-                                        <p className="is-7 p-2">Node.js</p>
-                                        <p className="is-7 p-2">Mongoose</p>
-                                        <p className="is-7 p-2">Postman</p>
-                                        <p className="is-7 p-2">MySql</p>
+                                        <p className="is-7 pb-2">Express.js</p>
+                                        <p className="is-7 pb-2">Node.js</p>
+                                        <p className="is-7 pb-2">Mongoose</p>
+                                        <p className="is-7 pb-2">Postman</p>
+                                        <p className="is-7 pb-2">MySql</p>
                                     </div>
                                 </div>
                                 <div className="column has-text-white">
                                     <p className='mb-4'>Other</p>
                                     <div>
-                                        <p className="is-7 p-2">Powershell</p>
-                                        <p className="is-7 p-2">GitHub</p>
+                                        <p className="is-7 pb-2">Powershell</p>
+                                        <p className="is-7 pb-2">GitHub</p>
+                                        <p className="is-7 pb-2">NPM</p>
                                     </div>
                                 </div>
                                 
