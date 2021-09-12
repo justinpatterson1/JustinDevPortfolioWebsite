@@ -96,10 +96,34 @@ hr
       font-size: 16px
     }
 
+    .radius{
+      border-radius: 40px;
+    }
+
     .expectationPic
     {
       width: 200px;
       height: 200px;
       
+    }
+    #services{
+      height: 100vh;
+    }
+    #services > div{
+      height: 100%;
+    }
+    #services > div > div:nth-child(1){
+      margin-top: 100px;
+    }
+
+    #services > div > div:nth-child(1) > p:nth-child(1)
+    {
+      margin-bottom: 100px;
+    }
+
+    .service-image
+    {
+      width: 200px;
+      height: 200px;
     }
 
