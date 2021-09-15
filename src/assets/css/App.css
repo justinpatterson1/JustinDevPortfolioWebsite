@@ -107,7 +107,7 @@ hr
       
     }
     #services{
-      height: 100vh;
+      
     }
     #services > div{
       height: 100%;
@@ -127,3 +127,68 @@ hr
       height: 200px;
     }
 
+    .box-bgColor
+    {
+      background-color:#0666F6;
+    }
+
+    #bg-div
+    {
+      width: 50px;
+      height: 100%;
+      padding: 0;
+    
+    }
+
+    #bg-div > div
+    {
+      align-items: center;
+      justify-items: center;
+    }
+    
+    #bg-div > div > div
+    {
+      justify-items: right;
+    } 
+
+    .contact-btn
+    {
+      background-color:#ED7171;;
+      color: white;
+    }
+
+    #contact-div
+    {
+      padding:60px 100px;
+      color: #f8f8f8d8;
+    }
+
+    #contact-div > div:nth-child(1)
+    {
+      padding-bottom:55px;
+    }
+
+    #projects
+    {
+      margin-top: 100px;
+    }
+
+    .margin-top-50
+    {
+      margin-top: 50px;
+    }
+
+    .padding-bottom-5
+    {
+      padding-bottom: 5px;
+    }
+
+    #filter {
+      margin-top: 60px;
+    }
+    #filter > div
+    {
+      justify-items: center;
+      width: 70%;
+      margin: 0 auto;
+    }

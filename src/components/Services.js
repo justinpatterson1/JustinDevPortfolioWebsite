@@ -2,11 +2,13 @@ import React from 'react'
 import Stack from '../assets/Images/stack-exchange-symbol.png'
 import Seo from '../assets/Images/seo-search-symbol.png'
 import Modeling from '../assets/Images/data-modelling.png'
+import frontend from '../assets/Images/web-design.png'
+import backend from  '../assets/Images/code.png'
 
 const Services = () => {
     return (
-        <div id='services' className='has-background-white'>
-            <div className='container'>
+        <div id='services' className='has-background-white '>
+            <div className='container pb-6'>
                 <div className='has-text-centered pt-6'>
                     <p className='is-size-5 has-text-link mb-5'>Services</p>
                     <p className='title is-size-1 has-text-grey-dark mb-0'>
@@ -71,6 +73,43 @@ const Services = () => {
                             <a className='button has-text-link' href=""> Explore</a>
                         </div>
                     </div>
+                    <div className='columns mb-6'>
+                       <div className='column columns is-centered  has-background-success radius is-3  mr-6 py-4'>
+                           <div className=''>
+                             <img src={backend} className='service-image' alt="" srcset="" />
+                           </div>
+                            
+                        </div>
+                        <div className='column columns is-half  ml-4 is-vcentered has-background-caution '>
+
+                            <div  className=' has-text-left '>
+                                <p className='title has-text-grey-dark'>Backend Development</p>
+                                <p className=' subtitle is-size-6 has-text-grey-light'>We design and manage databases to help you compensate growth in you business</p>
+                            </div>
+                        </div>
+                        <div className='column columns is-vcentered is-centered'>
+                            <a className='button has-text-link' href=""> Explore</a>
+                        </div>
+                    </div>
+                    <div className='columns mb-6'>
+                       <div className='column columns is-centered  has-background-primary radius is-3  mr-6 py-4'>
+                           <div className=''>
+                             <img src={frontend} className='service-image' alt="" srcset="" />
+                           </div>
+                            
+                        </div>
+                        <div className='column columns is-half  ml-4 is-vcentered has-background-caution'>
+
+                            <div  className=' has-text-left '>
+                                <p className='title has-text-grey-dark'>Front-End Development</p>
+                                <p className=' subtitle is-size-6 has-text-grey-light'>We design and manage databases to help you compensate growth in you business</p>
+                            </div>
+
+                        </div>
+                        <div className='column columns is-vcentered is-centered'>
+                            <a className='button has-text-link' href=""> Explore</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -78,3 +117,5 @@ const Services = () => {
 }
 
 export default Services
+
+
