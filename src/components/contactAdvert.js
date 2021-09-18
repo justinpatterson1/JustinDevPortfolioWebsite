@@ -7,18 +7,21 @@ const Projects = () => {
     const BG=
     {
         backgroundImage:`url(${String})`,
-        backgroundPosition:`left center`,
+        backgroundPosition:`40% `,
         backgroundSize:`cover`,
         backgroundRepeat:`no-repeat`,
         backgroundAttachment:`local`,
-        height:'100%'
+        height:'100%',
+        width:'1000px',
+        
+        
     }
 
     return (
         <div className='has-background-white'>
             <div className="container">
                <div className='pt-6' >
-                    <div className=" columns box box-bgColor p-0" style={{height:'300px',borderRadius: '16px'}}>
+                    <div className=" columns box box-bgColor p-0" style={{height:'350px',borderRadius: '16px'}}>
                         
                         <div id='contact-div' style={{color:"#fff"}}>
                             <div>

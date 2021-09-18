@@ -16,6 +16,10 @@ span{
   color: #2d3032;
 }
 
+li{
+  list-style-type: none;
+}
+
 #contact-btn{
   background-color: #25243A;
 }
@@ -223,4 +227,32 @@ hr
       
       letter-spacing: 10px;
       margin-bottom: 30px;
+    }
+
+    #quote > div > div >div{
+      width: 100vw;
+      height: 100%;
+     margin-right: 20px;
+    }
+
+    .box{
+      z-index: -1;
+    }
+
+    .social{
+      width: 50px;
+      height: 50px;
+      border-radius:50px;
+      background-color:#0666F6;
+    }
+
+    #footer{
+      align-self: center;
+      justify-items: center;
+     
+    }
+
+    .justify-self-right
+    {
+      justify-self: right;
     }

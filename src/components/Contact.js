@@ -1,4 +1,5 @@
 import React from 'react'
+import Quote from '../components/Quote'
 
 const Contact = () => {
     return (
@@ -82,6 +83,7 @@ const Contact = () => {
 
                 </div>
             </div>
+            <Quote/>
         </div>
     )
 }
